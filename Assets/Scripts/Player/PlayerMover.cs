@@ -1,6 +1,6 @@
 using UnityEngine;
 
-[RequireComponent(typeof(CharacterController), typeof(Player))]
+[RequireComponent(typeof(CharacterController))]
 public class PlayerMover : MonoBehaviour
 {
     [SerializeField] private float _speed = 10;

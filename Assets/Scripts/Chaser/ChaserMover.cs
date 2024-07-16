@@ -4,7 +4,7 @@
 public class ChaserMover : MonoBehaviour
 {
     [SerializeField] private float _speed;
-    [SerializeField] private Player _target;
+    [SerializeField] private PlayerMover _target;
     [SerializeField] private bool _isActive;
     [SerializeField] private float _distance;
 

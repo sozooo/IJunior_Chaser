@@ -249,7 +249,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _speed: 3
-  _target: {fileID: 2097438297}
+  _target: {fileID: 0}
   _isActive: 1
   _distance: 20
 --- !u!54 &753152392
@@ -6726,7 +6726,6 @@ GameObject:
   - component: {fileID: 2097438293}
   - component: {fileID: 2097438295}
   - component: {fileID: 2097438296}
-  - component: {fileID: 2097438297}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -6795,16 +6794,3 @@ CharacterController:
   m_SkinWidth: 0.5
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &2097438297
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2097438291}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d2b858094619f4ad8845a7cedf894f78, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _camera: {fileID: 963194227}
